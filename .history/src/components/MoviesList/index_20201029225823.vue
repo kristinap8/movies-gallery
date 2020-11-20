@@ -1,0 +1,25 @@
+<template>
+    <div>
+        
+    </div>
+</template>
+
+<script>
+    export default {
+        name:"MoviesList",
+        props: {
+            id: {
+                type: [String,Number],
+                required:true,
+            },
+            name:{
+                type:String,
+                default:"Назва відсутня"
+            }
+        },
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
